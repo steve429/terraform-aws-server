@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
 
   tags = {
     "Identity"    = var.identity
-    "Name"        = "Steve B"
+    "Name"        = "Steve"
     "Environment" = "Training"
   }
 }
